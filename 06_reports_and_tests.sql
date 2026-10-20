@@ -21,20 +21,15 @@ BEGIN
 END;
 /
 
--- 3. Try a payment in a separate worksheet:
--- BEGIN
---   RECORD_FEE_PAYMENT(101, 5000, 'UPI');
--- END;
--- /
--- Then run the student SELECT above again.
 
--- 4. Payment history
+
+-- 3. Payment history
 SELECT * FROM FEE_PAYMENTS ORDER BY payment_date, payment_id;
 
--- 5. Audit log
+-- 4. Audit log
 SELECT * FROM FEE_AUDIT ORDER BY audit_id;
 
--- 6. Fee summary
+-- 5. Fee summary
 SELECT SUM(total_fees) AS total_fees,
        SUM(paid_fees) AS collected_fees,
        SUM(pending_fees) AS pending_fees
