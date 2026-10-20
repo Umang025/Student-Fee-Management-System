@@ -21,8 +21,6 @@ BEGIN
 END;
 /
 
-
-
 -- 3. Payment history
 SELECT * FROM FEE_PAYMENTS ORDER BY payment_date, payment_id;
 
