@@ -1,7 +1,7 @@
 -- Sample data. pending_fees is intentionally omitted; Oracle calculates it.
 
 INSERT INTO STUDENTS (student_id, student_name, course_name, total_fees, paid_fees)
-VALUES (101, 'Rahul Sharma', 'MCA', 85000, 50000);
+VALUES (101, 'Umang Kumar Singh', 'MCA', 85000, 50000);
 INSERT INTO STUDENTS (student_id, student_name, course_name, total_fees, paid_fees)
 VALUES (102, 'Priya Patel', 'MCA', 85000, 85000);
 INSERT INTO STUDENTS (student_id, student_name, course_name, total_fees, paid_fees)
