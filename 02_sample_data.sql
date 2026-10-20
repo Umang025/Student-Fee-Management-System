@@ -7,9 +7,9 @@ VALUES (102, 'Priya Patel', 'MCA', 85000, 85000);
 INSERT INTO STUDENTS (student_id, student_name, course_name, total_fees, paid_fees)
 VALUES (103, 'Amit Verma', 'BCA', 60000, 0);
 INSERT INTO STUDENTS (student_id, student_name, course_name, total_fees, paid_fees)
-VALUES (104, 'Sneha Kumar', 'MBA', 95000, 40000);
+VALUES (104, 'Sneha Kumar', 'MCA', 95000, 40000);
 INSERT INTO STUDENTS (student_id, student_name, course_name, total_fees, paid_fees)
-VALUES (105, 'Rohan Gupta', 'B.Tech CSE', 120000, 60000);
+VALUES (105, 'Rohan Gupta', 'MCA', 120000, 60000);
 
 INSERT INTO FEE_PAYMENTS (payment_id, student_id, payment_amount, payment_date, payment_mode)
 VALUES (1, 101, 50000, DATE '2026-08-01', 'UPI');
