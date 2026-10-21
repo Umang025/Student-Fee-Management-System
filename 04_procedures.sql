@@ -77,3 +77,10 @@ END;
 
 SHOW ERRORS PROCEDURE ADD_STUDENT;
 SHOW ERRORS PROCEDURE RECORD_FEE_PAYMENT;
+
+
+-- Adding a student to test the procedures and trigger
+EXEC ADD_STUDENT(106, 'Rahul Sharma', 'MCA', 90000);
+-- Adding a payment to test the trigger and procedures
+
+EXEC RECORD_FEE_PAYMENT(106, 25000, 'UPI');
